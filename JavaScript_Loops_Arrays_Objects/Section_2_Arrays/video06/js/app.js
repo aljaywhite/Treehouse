@@ -1,0 +1,1 @@
+$('scipt.answer').text('$6,500');
