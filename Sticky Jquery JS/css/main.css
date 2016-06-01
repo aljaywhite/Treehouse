@@ -345,6 +345,7 @@ footer {
 
 .is-sticky .header {
   background-color: black;
+  z-index: 1000;
 
 }
 
@@ -354,7 +355,6 @@ footer {
   margin: 0;
   transition: .5s;
 }
-
 
 
 
