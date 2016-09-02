@@ -1,10 +1,14 @@
 var playlist = new Playlist();
 
-var hereComesTheSun = new Song("Here Comes the Sun", "The Beatles", "2:54");
-var walkingOnSunshine = new Song("Walking on Sunshine", "Katringa and the Waves", "3:43");
+var you = new Song("You", "Typhoid Beach", "2:48");
+var humdrumDreams = new Song("Humdrum Dreams", "Typhoid Beach", "5:00");
+var sleepwalker = new Song("Sleepwalker", "Typhoid Beach", "3:37");
+var mountainBrother = new Song("Mountain Brother", "Typhoid Beach", "3:07");
 
-playlist.add(hereComesTheSun);
-playlist.add(walkingOnSunshine);
+playlist.add(you);
+playlist.add(humdrumDreams);
+playlist.add(sleepwalker);
+playlist.add(mountainBrother);
 
 var playlistElement = document.getElementById("playlist");
 
